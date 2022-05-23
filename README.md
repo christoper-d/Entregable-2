@@ -1,10 +1,9 @@
-# Entregable-1
+# Entregable-2
 En este repositorio encontraras el código de las distintas situaciones que pide el entregable 2
+Estos archivos tienen derechos de autor, no puedes copiarte de ellos.
+(pero puedes basasarte en ellos para crear algo tu mismo)
 
-el codigo es libre pero lo tienes que modificar
+no me responsabilizó por el uso que le vayas a dar
 
 
-no me responsabilizó por el uso que le vayas a dar, queda bajo tu responsabilidad.
-
-
-autor CHRISTOPER SANCHEZ DIAZ
+Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
