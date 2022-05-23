@@ -52,3 +52,4 @@ print('una semana de trabajo: ',7*(empleado['Horas de trabajo']*empleado['Salari
 print('un mes de trabajo: ',4*(7*(empleado['Horas de trabajo']*empleado['Salario por hora'])), 'soles')
 print('un año de trabajo: ',12*(4*(7*(empleado['Horas de trabajo']*empleado['Salario por hora']))), 'soles')
 
+#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
