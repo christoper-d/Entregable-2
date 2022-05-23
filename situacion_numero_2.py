@@ -41,3 +41,6 @@ print(f'|MARIA  |  {maria}  |  {round(porcentaje3)} %   |')
 print('*---------------------------')
 print(f'| Total:| {empresa}  | {round(total)} %   |')
 print('*---------------------------')
+
+
+#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
