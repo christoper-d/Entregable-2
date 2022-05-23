@@ -12,3 +12,6 @@ altura =int(input(' Altura => '))
 resultado =((base*altura)/2)
 print()
 print(f'|       | EL area del triangulo es : {round(resultado)}')
+
+
+#Autor: CHRISTOPER DIAZ© Año: 2022
