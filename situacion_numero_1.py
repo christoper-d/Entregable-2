@@ -14,3 +14,6 @@ print('forma 2')#forma2
 
 a=int(input('ingrese su numero > '))+int(input("ingrese su numero > "))+int(input("ingrese su numero > "))+int(input("ingrese su numero > 3"))
 print(a)
+
+
+# Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
