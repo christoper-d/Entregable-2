@@ -22,3 +22,8 @@ elif contador < 8:
     print(f'|       | DNI contiene menos de 8 caracteres\n')
 else:
     print(f'|       | El DNI es correcto\n')
+    
+    
+    
+    
+#Autor: CHRISTOPER DIAZ© Año: 2022
