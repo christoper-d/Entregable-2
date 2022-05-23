@@ -10,3 +10,6 @@ if num1 %2==0:
     print(f'|       | {num1} es un numero par')
 elif num1 %2!=0:
     print(f'|       | {num1} es un numero impar')
+    
+   
+#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
