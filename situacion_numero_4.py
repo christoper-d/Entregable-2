@@ -44,3 +44,5 @@ def imprimir_resultado(accion):
         print('*-------------------------------\n')
 
 imprimir_resultado(accion)
+
+#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
