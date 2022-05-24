@@ -1,6 +1,3 @@
-#1.	Escribe un programa que solicité al usuario ingresar cuatro números para luego mostrar el promedio de los cuatro.
-
-###puedes escoger caulquiera de las dos formas###
 
 ############= PRIMERA FORMA =############
 
