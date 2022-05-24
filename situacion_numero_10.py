@@ -32,3 +32,5 @@ elif salario>=8000 and salario<=10000:
 print()
 print("|       |El salario del trabajador es: ",salario)
 
+
+#Autor: CHRISTOPER DIAZ© Año: 2022
