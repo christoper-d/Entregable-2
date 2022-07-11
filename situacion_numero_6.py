@@ -12,4 +12,4 @@ elif num1 %2!=0:
     print(f'|       | {num1} es un numero impar')
     
    
-#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
+#Autor: CHRISTOPER DIAZ©   año:2022
