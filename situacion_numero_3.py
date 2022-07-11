@@ -66,4 +66,4 @@ print()
 
 
 
-#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
+#Autor: CHRISTOPER DIAZ©   año:2022
