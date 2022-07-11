@@ -26,4 +26,4 @@ a=int(input('ingrese su numero > '))+int(input("ingrese su numero > "))+int(inpu
 print(a)
 
 
-# Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
+#Autor: CHRISTOPER DIAZ©   año:2022
