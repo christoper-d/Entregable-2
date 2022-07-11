@@ -45,4 +45,4 @@ def imprimir_resultado(accion):
 
 imprimir_resultado(accion)
 
-#Autor: CHRISTOPER SANCHEZ DIAZ©   año:2022
+#Autor: CHRISTOPER DIAZ©   año:2022
