@@ -7,7 +7,7 @@ salary=5#int(input(''))
 #--------------------------
 
 
-#--------------------------------- Salida de los dat os del empleado
+#--------------------------------- Salida de los datos del empleado
 print()
 print('--- Empleados ---')
 print()
@@ -20,7 +20,7 @@ print(' • Empleado 1 :')
 print()
 print('     ->','\n     -> '.join("{}: {}".format(k, v) for k, v in empleado.items()))
 print(' \n',' \n')
-print('----------------------------------------------------------------')
+
 
 
 #--------Salario variables---------
