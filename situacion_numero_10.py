@@ -1,36 +1,66 @@
-print()
-print('-------------------------------')
-print('|    calcular los salarios    |')
-print('-------------------------------\n')
 
-print('      ---Bienvenido---     ')
+#                             -----IMPORT-----
+#
+#-  Eliminar si no se hace desde la termminal  O la CMD, junto a los clearConsole() del codigo
+import os
 
-print()
-print('>Ingresa las horas:  \n')
-horas=int(input('=> '))
-
-print()
-print('>Ingrese el turno(m,t,n):  \n')
-turno=input('=>')
+def clearConsole():
+    command = 'clear'
+    if os.name in ('nt', 'dos'):
+        command = 'cls'
+    os.system(command)
+##-------------------------------------------------------------------------------------
 
 
-salario=horas*37
+#                 -----Main-----
+#-------------------------------------------------------------------------------------
+def main():
+    try:
+        print()
+        print('-------------------------------')
+        print('|    calcular los salarios    |')
+        print('-------------------------------\n')
 
+        print('      ---Bienvenido---     ')
+        print()
+        print('>Ingresa las horas:  \n')
+        horas=int(input('=[> '))
 
-if turno=="m":
-    salario==horas*37
-elif turno=="t":
-    salario+=salario*0.2
-elif turno=="n":
-    salario+=salario*0.5
+        print()
+        print('                  '+'+--------------------------+')
+        print(' >Ingrese el turno|   m   ||    t   ||   n   |  \n','                 '+'+--------------------------+')
+        turno=input('=[>')
+        salario=horas*37
 
-if salario >=2000 and salario<=5000:
-    salario-=salario*0.15
-elif salario>=8000 and salario<=10000:
-    salario*=salario*0.17
+        try: 
+            if turno=="m":
+                salario==horas*37
+                if salario >=2000 and salario<=5000:
+                    salario-=salario*0.15
+                    print("|       |El salario del trabajador es: ",salario)
+                    print()
+            elif turno=="t":
+                salario+=salario*0.2
+                if salario >=2000 and salario<=5000:
+                    salario-=salario*0.15
+                    print("|       |El salario del trabajador es: ",salario)
+                    print()
+            elif turno=="n":
+                salario+=salario*0.5  
+                if salario >=2000 and salario<=5000:
+                    salario-=salario*0.15
+                    print("|       |El salario del trabajador es: ",salario)
+                    print()
+        except:
+            print('         ---vuelve a intentarlo xd---  \n')
 
-print()
-print("|       |El salario del trabajador es: ",salario)
-
+    except:
+        clearConsole() #Eliminar si no se hace desde la terminal
+        print(' ')
+        print('|       | ERROR: ¡ese es valor no valido! \n')
+        print('         ---vuelve a intentarlo xd---  \n')
+        main()
+main()
+#-------------------------------------------------------------------------------------
 
 #Autor: CHRISTOPER DIAZ© Año: 2022
